@@ -1,5 +1,5 @@
 import React from 'react';
-// import Tilt from 'react-tilt'; 
+//= import Tilt from 'react-tilt'; 
 import Tilt from 'react-parallax-tilt';
 import brain from './brain.png';
 import './Logo.css';
@@ -12,6 +12,7 @@ const Logo = () => {
           <img style={{paddingTop: '5px'}} alt='logo' src={brain}/>
         </div>
       </Tilt>
+      
     </div>
   );
 }
